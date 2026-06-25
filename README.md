@@ -1,10 +1,9 @@
-# cl12_kadai
-#左右反転画像 生成プログラム flip.py
+# 左右反転画像 生成プログラム flip.py
 
-##1.概要
+## 1.概要
 引数で指定した画像の左右反転画像を作成するpython3で動作するプログラムです。
 
-##2.ソースコード
+## 2.ソースコード
 
 ```python
 #このプログラムはpython3用です。
@@ -25,15 +24,24 @@ img_flip = img.transpose(Image.FLIP_LEFT_RIGHT)
 #画像の保存
 imp_flip.save(output_image)
 ```
-##3.使い方
-###3.1.実行例
+## 3.使い方
+### 3.1.実行例
 ・コマンドラインフォーマット
+
 `python3 filip.py <input_image_path> <output_image_path>`
 
 ・利用例
-`python3 filip.py input.jpg output.jpg`
 
-###3.2.出力結果
+`python3 filip.py input.jpg output.jpg`
+| 名前 | 種類 |
+| --- | --- |
+| ポチ | 犬 |
+| タマ | 猫 |
+### 3.2.出力結果
 ・以下のように入力画面の左右反転画像が出力されます。
+
 |入力画像(input.jpg)|出力画像(output.jpg)|
-|![input.jpg](./input.jpg)|![output.jpg](./output.jpg)|
+| --- | --- |
+|![](./input.jpg)|![](./output.jpg)|
+
+以上
