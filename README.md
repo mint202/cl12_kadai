@@ -33,10 +33,7 @@ imp_flip.save(output_image)
 ・利用例
 
 `python3 filip.py input.jpg output.jpg`
-| 名前 | 種類 |
-| --- | --- |
-| ポチ | 犬 |
-| タマ | 猫 |
+
 ### 3.2.出力結果
 ・以下のように入力画面の左右反転画像が出力されます。
 
